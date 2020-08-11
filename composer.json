@@ -1,0 +1,6 @@
+{
+    "require": {
+        "tightenco/collect": "^7.19",
+        "phpunit/phpunit": "^9.3"
+    }
+}
