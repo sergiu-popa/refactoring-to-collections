@@ -16,3 +16,13 @@ $shiftIds = collect($shifts)->map(function ($shift) {
 });
 
 dd($shiftIds->all());
+
+/*$shiftIds = [];
+
+foreach ($shifts as $shift) {
+    $parts = explode('_', $shift);
+    $shiftIds[] = end($parts);
+}
+
+dd($shiftIds);*/
+
